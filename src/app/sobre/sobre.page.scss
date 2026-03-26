@@ -1,9 +1,7 @@
-/* Fundo igual */
 .fundo {
   --background: url('/assets/fundo.jpg') no-repeat center center / cover;
 }
 
-/* Toolbar igual */
 .toolbar-rosa {
   --background: #ff4d8d;
   --color: white;
@@ -25,28 +23,23 @@
   border-radius: 25px;
   text-align: center;
   padding: 20px;
-  
   background: rgba(255, 255, 255, 0.25);
   backdrop-filter: blur(10px);
-
   box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
 }
 
-/* Nome */
 .nome {
   font-size: 1.3rem;
   font-weight: bold;
   color: #ff4d8d;
 }
 
-/* Texto */
 .texto {
   color: #000000;
   font-size: 0.95rem;
   line-height: 1.5;
 }
 
-/* Botão */
 .botao-rosa {
   --background: #ff4d8d;
   --border-radius: 12px;
