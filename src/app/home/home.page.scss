@@ -1,0 +1,79 @@
+/* Fundo geral */
+.fundo {
+  --background: url('/assets/fundo.jpg') no-repeat center center / cover;
+}
+
+/* Toolbar */
+.toolbar-rosa {
+  --background: #ff4d8d;
+  --color: white;
+  text-align: center;
+}
+
+/* Centralizar tudo */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Card */
+.card-perfil {
+  width: 90%;
+  max-width: 350px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 20px;
+  
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+}
+
+/* Foto */
+.foto {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  margin: 20px auto;
+  object-fit: cover;
+  border: 4px solid #ff4d8d;
+}
+
+/* Nome */
+.nome {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #ff4d8d;
+}
+
+/* Info */
+.info {
+  color: #888;
+}
+
+/* Botão */
+.botao-rosa {
+  --background: #ff4d8d;
+  --border-radius: 12px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: white;
+}
+
+.card-perfil {
+  animation: subir 0.6s ease;
+}
+
+@keyframes subir {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
