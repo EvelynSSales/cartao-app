@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
 
-// IMPORTA ISSO 👇
 import { 
   IonContent, IonHeader, IonToolbar, IonTitle,
   IonCard, IonCardHeader, IonCardTitle, IonCardSubtitle, IonCardContent,
